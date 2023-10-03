@@ -1,0 +1,27 @@
+.h1{
+    font-size: 24px;
+    color:yellow;
+}
+.title{
+    padding: 10px;
+    background-color: pink;
+}
+
+.card{
+    padding: 10px;
+    background-color: fuchsia;
+    color: black;
+}
+
+
+/* Esto quiere decir que si estas en un green theme, */
+/* y tenes un .card tu color es green */
+:global(.green-theme) .card{
+    background-color: green;
+    color: white;
+}
+
+:global(.blue-theme) .card{
+    background-color: orangered;
+    color: white;
+}

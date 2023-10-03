@@ -1,0 +1,14 @@
+.h1{
+    font-size: 24px;
+    color:rosybrown;
+}
+.title{
+    padding: 10px;
+    background-color: red;
+}
+
+.card{
+    padding: 10px;
+    background-color: turquoise;
+    color: black;
+}
